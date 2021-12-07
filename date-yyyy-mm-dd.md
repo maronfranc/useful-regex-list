@@ -8,7 +8,7 @@ Date regex matching months with 31 and 30 days and leap years.
 
 ## Patterns 
 - Date separator group: `(\/|-|\.)`
-- Repeat previous group: `\1 `\2` `\3`
+- Repeat previous group: `\1` `\2` `\3`
 - Years: `(?:[1-9]\d*)`
 - 31 days months: `31(\/|-|\.)(?:0?[13578]|1[02])`
 - 29 and 30 days months: `(?:29|30)(\/|-|\.)(?:0?[13-9]|1[0-2])`
